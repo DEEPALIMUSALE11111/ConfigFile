@@ -6,11 +6,7 @@ spring:
   application:
     name: BatchService
 
-  boot:
-    admin:
-      client:
-        url:
-          - http://localhost:1111/
+
 
   datasource:
     url: jdbc:mysql://localhost:3306/BatchDb
