@@ -5,11 +5,7 @@ spring:
   application:
     name: AuthService
 
-  boot:
-    admin:
-      client:
-        url:
-          - http://localhost:1111/
+ 
 
   datasource:
     url: jdbc:mysql://localhost:3306/demo1
